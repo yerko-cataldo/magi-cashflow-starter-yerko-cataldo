@@ -1,0 +1,35 @@
+# Configuración del pipeline de entrenamiento (python main.py --config config/train.yaml)
+
+# Separación temporal
+split:
+  test_months: 3
+  valid_months: 2
+
+# Covariables
+features:
+  exclude_columns: [merchant_id]
+
+# Outliers (regla IQR por comercio)
+outliers:
+  enabled: false
+  columns: [inflows, outflows, txn_count]
+  iqr_k: 1.5
+
+# Selección de variables
+selection:
+  max_null_pct: 90.0
+  min_power: 0.01
+  max_corr: 0.6
+
+# Entrenamiento
+training:
+  models: [linear, random_forest, xgboost]
+  n_trials: 3
+  min_importance: 0.01
+  alert_importance: 0.40
+
+# Evaluación
+evaluation:
+  primary_metric: asym_wape
+  over_weight: 2.0
+  mape_min_abs: 100000.0
