@@ -1,0 +1,8 @@
+.venv/
+.git/
+data/
+notebooks/
+tests/
+docs/
+**/__pycache__/
+*.pdf

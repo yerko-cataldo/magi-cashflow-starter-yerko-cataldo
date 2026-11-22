@@ -1,0 +1,80 @@
+{
+  "merchant_id": "M-0042",
+  "forecast_date": "2026-11-01",
+  "merchant_category": "electronica",
+  "region": "Metropolitana",
+  "is_holiday": false,
+  "opening_balance": 407233048,
+  "history": [
+    {
+      "date": "2026-10-18",
+      "net_cashflow": 1090701,
+      "txn_count": 28
+    },
+    {
+      "date": "2026-10-19",
+      "net_cashflow": -4412293,
+      "txn_count": 24
+    },
+    {
+      "date": "2026-10-20",
+      "net_cashflow": 2374740,
+      "txn_count": 34
+    },
+    {
+      "date": "2026-10-21",
+      "net_cashflow": 1890125,
+      "txn_count": 27
+    },
+    {
+      "date": "2026-10-22",
+      "net_cashflow": 2560983,
+      "txn_count": 18
+    },
+    {
+      "date": "2026-10-23",
+      "net_cashflow": 2578583,
+      "txn_count": 37
+    },
+    {
+      "date": "2026-10-24",
+      "net_cashflow": 4751342,
+      "txn_count": 56
+    },
+    {
+      "date": "2026-10-25",
+      "net_cashflow": 248107,
+      "txn_count": 28
+    },
+    {
+      "date": "2026-10-26",
+      "net_cashflow": -6797424,
+      "txn_count": 19
+    },
+    {
+      "date": "2026-10-27",
+      "net_cashflow": 2205809,
+      "txn_count": 24
+    },
+    {
+      "date": "2026-10-28",
+      "net_cashflow": 2238739,
+      "txn_count": 28
+    },
+    {
+      "date": "2026-10-29",
+      "net_cashflow": 2659024,
+      "txn_count": 43
+    },
+    {
+      "date": "2026-10-30",
+      "net_cashflow": -5980090,
+      "txn_count": 35
+    },
+    {
+      "date": "2026-10-31",
+      "net_cashflow": 1429560,
+      "txn_count": 14
+    }
+  ]
+}
